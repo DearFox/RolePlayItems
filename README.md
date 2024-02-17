@@ -1,2 +1,2 @@
-# RolePlayItems
- A small Fabric server mod that adds new items to RP. Uses the Polymer library.
+# Role Play Items
+ Это серверный мод. Для его работы вам понадобится Fabric API и Polymer
