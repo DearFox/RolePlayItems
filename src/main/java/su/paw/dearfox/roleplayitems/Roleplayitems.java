@@ -20,8 +20,9 @@ import java.util.Map;
 public class Roleplayitems implements ModInitializer  {
 
     public static final String MOD_ID = "roleplayitems";
+    public static final String MOD_NAME = "Role Play items";
 
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
     //public static final Item OAK_ROD = register(new SimpleModeledPolymerItem(new Item.Settings(), Items.PAPER,"oak_rod"), "oak_rod");
     public static final Item UMBRELLA_OPEN = register(new UmbrellaItem(new Item.Settings().maxCount(1), Items.RABBIT_HIDE), "umbrella_open");
