@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "roleplayitems",
+  "version": "${version}",
+  "name": "RolePlayItems",
+  "description": "Role Play Items",
+  "authors": [
+    "DearFox"
+  ],
+  "contact": {
+    "website": "https://paw.su/",
+    "repo": "https://git.paw.su/"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/roleplayitems/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "su.paw.dearfox.roleplayitems.client.RoleplayitemsClient"
+    ],
+    "main": [
+      "su.paw.dearfox.roleplayitems.Roleplayitems"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}

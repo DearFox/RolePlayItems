@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_umbrella_opening": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "roleplayitems:umbrella_close"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "roleplayitems:umbrella_opening"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_umbrella_opening"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "roleplayitems:umbrella_opening"
+    ]
+  }
+}

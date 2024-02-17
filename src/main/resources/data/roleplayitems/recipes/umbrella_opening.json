@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "misc",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "roleplayitems:umbrella_close"
+        }
+    },
+    "result": {
+        "item": "roleplayitems:umbrella_open",
+        "count": 1
+    }
+}
