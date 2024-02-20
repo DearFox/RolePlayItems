@@ -1,5 +1,8 @@
 {
     "itemgroup.roleplayitems": "Role Play Items",
     "item.roleplayitems.umbrella_open": "Umbrella",
-    "item.roleplayitems.umbrella_close": "Umbrella"
+    "item.roleplayitems.umbrella_close": "Umbrella",
+    "item.roleplayitems.mary_poppins_umbrella_open": "Mary Poppins Umbrella",
+    "item.roleplayitems.mary_poppins_umbrella_close": "Mary Poppins Umbrella"
+
 }

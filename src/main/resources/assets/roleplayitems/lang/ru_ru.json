@@ -1,5 +1,7 @@
 {
   "itemgroup.roleplayitems": "Role Play Items",
   "item.roleplayitems.umbrella_open": "Зонт",
-  "item.roleplayitems.umbrella_close": "Зонт"
+  "item.roleplayitems.umbrella_close": "Зонт",
+  "item.roleplayitems.mary_poppins_umbrella_open": "Зонтик Мэри Поппинс",
+  "item.roleplayitems.mary_poppins_umbrella_close": "Зонтик Мэри Поппинс"
 }

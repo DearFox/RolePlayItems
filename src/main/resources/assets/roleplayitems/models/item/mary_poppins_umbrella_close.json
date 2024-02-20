@@ -1,0 +1,6 @@
+{
+  "parent": "roleplayitems:item/umbrella_close",
+  "textures": {
+    "0": "roleplayitems:item/umbrella_close"
+  }
+}

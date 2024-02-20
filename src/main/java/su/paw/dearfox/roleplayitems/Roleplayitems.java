@@ -27,6 +27,8 @@ public class Roleplayitems implements ModInitializer  {
     //public static final Item OAK_ROD = register(new SimpleModeledPolymerItem(new Item.Settings(), Items.PAPER,"oak_rod"), "oak_rod");
     public static final Item UMBRELLA_OPEN = register(new UmbrellaItem(new Item.Settings().maxCount(1), Items.RABBIT_HIDE), "umbrella_open");
     public static final Item UMBRELLA_CLOSE = register(new UmbrellaItem(new Item.Settings().maxCount(1), Items.RABBIT_HIDE), "umbrella_close");
+    public static final Item MARY_POPPINS_UMBRELLA_OPEN = register(new UmbrellaItem(new Item.Settings().maxCount(1), Items.RABBIT_HIDE), "mary_poppins_umbrella_open");
+    public static final Item MARY_POPPINS_UMBRELLA_CLOSE = register(new UmbrellaItem(new Item.Settings().maxCount(1), Items.RABBIT_HIDE), "mary_poppins_umbrella_close");
 
     //public static final ItemGroup ITEM_GROUP = new ItemGroup.Builder(null, -1)
     //        .displayName(Text.translatable("roleplayitems.itemgroup").formatted(Formatting.AQUA))
@@ -69,6 +71,8 @@ public class Roleplayitems implements ModInitializer  {
                     //// Rods
                     entries.add(UMBRELLA_CLOSE);
                     entries.add(UMBRELLA_OPEN);
+                    entries.add(MARY_POPPINS_UMBRELLA_OPEN);
+                    entries.add(MARY_POPPINS_UMBRELLA_CLOSE);
                 }))
                 .build());
     }
